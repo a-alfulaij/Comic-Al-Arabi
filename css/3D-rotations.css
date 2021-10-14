@@ -82,6 +82,7 @@ body {
     margin: 0;
     opacity: 0;
     transition:         opacity 1s;
+    pointer-events: none;
 }
 
 .impress-enabled .step.active { opacity: 1 }

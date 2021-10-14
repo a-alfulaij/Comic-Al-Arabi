@@ -3467,7 +3467,7 @@
 
         var prevHtml   = '<button id="impress-navigation-ui-prev" title="Previous" ' +
                          'class="impress-navigation-ui">&lt;</button>';
-        var selectHtml = '<select id="impress-navigation-ui-select" title="Go to" ' +
+        var selectHtml = '<select style="display:none;" id="impress-navigation-ui-select" title="Go to" ' +
                          'class="impress-navigation-ui">' + '\n' +
                            selectOptionsHtml() +
                            '</select>';
